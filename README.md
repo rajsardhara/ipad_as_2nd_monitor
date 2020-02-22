@@ -10,17 +10,21 @@ Everytime I am travelling and If I want to work on my laptop it's hard to multit
   
 ### Before you start:  
 
-I am using X11VNC in my setup and x11vnc droped `-multiptr` option but you can follow below steps to enable it:  
-`git clone https://github.com/LibVNC/x11vnc.git`  
-`cd x11vnc`  
-`sudo apt-get install libvncserver-dev`  
-`./autogen.sh`  
-`./configure`  
-`make`  
-`sudo make install`  
+I am using X11VNC in my setup and x11vnc droped `-multiptr` option but you can follow below steps to enable it: 
+```
+git clone https://github.com/LibVNC/x11vnc.git
+cd x11vnc
+sudo apt-get install libvncserver-dev
+./autogen.sh
+./configure
+make
+sudo make install
+```
+  
   
 Now based on your GPU you've to create configuration file at: /usr/share/X11/xorg.conf.d/ in my case I've created '20-intel.conf' with below parameters:
-
+  
+  
 `/usr/share/X11/xorg.conf.d/20-intel.conf`
   
 ```
