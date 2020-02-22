@@ -32,7 +32,7 @@ EndSection
 ```
    
   
-Once all setup just simply download __ipad_monitor.sh__ and run:
+Once all setup just simply download [__ipad_monitor.sh__](https://github.com/rajsardhara/ipad_as_2nd_monitor/blob/master/ipad_monitor.sh) and run:
 
 `./ipad_monitor.sh -r` '__-r__' will create additional display on right side of laptop.
 ```
