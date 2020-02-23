@@ -3,6 +3,10 @@ Use ipad or android tablet as your 2nd Monitor with your Linux Laptop/PC
 
 Everytime I am travelling and If I want to work on my laptop it's hard to multitask because you normally used to with dual monitor at home or at work, and while you travel normally you have only laptop and tablet. I have been googling about solution to use my ipad at dual monitor without any extra accesories, which led me to [__Aditya's__](http://www.adityavaidya.com/2015/03/ipad-as-2nd-monitor-now-on-linux.html) post. With that I was able to achive what I wanted but there was some manual steps involved, So I decided to make single script which takes care of running multiple scripts.  
   
+  
+### Demo
+![Demo](ezgif.com-video-to-gif.gif)
+  
 ## Things you need:
 - ipad/Android tablet with VNC Viewer(I'm using ipad with VNC Viewer app)  
 - Linux Desktop(I'm using ElementaryOS Which is built on Ubuntu 18.04)  
