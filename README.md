@@ -26,7 +26,7 @@ sudo make install
 ```
   
   
-Now based on your GPU you've to create configuration file at: /usr/share/X11/xorg.conf.d/ in my case I've created '20-intel.conf' with below parameters:
+Now based on your __GPU__ you've to create configuration file at: /usr/share/X11/xorg.conf.d/ in my case I've created '20-intel.conf' with below parameters:
   
   
 `/usr/share/X11/xorg.conf.d/20-intel.conf`
